@@ -1,4 +1,4 @@
-# Zigbee Sensor Data Documentation
+# Zigbee Water EC PH ORP Sensor Data Documentation
 
 ## Overview
 
@@ -10,6 +10,18 @@ This repository contains structured Zigbee data logs related to water quality mo
 | Frame Control ID | Destination Endpoint | Cluster ID | Profile ID | Source Endpoint | Counter |
 | ---------------- | -------------------- | ---------- | ---------- | --------------- | ------- |
 | 0x00             | 0x01                 | 0x00 0xef  | 0x04 0x01  | 0x01            | 0x01    |
+
+
+### Zigbee Cluster Library
+
+```
+Command 0x00 to write data
+Command 0x02 to read data
+```
+
+| Frame Control ID | Transaction Seq Num  | Command Identifier | Source ID  |  Sequence  |
+| ---------------- | -------------------- | ------------------ | ---------- | ---------- | 
+| 0x09             | 0x46                 | 0x02               | 0x00       | 0x01       |
 
 
 ## Notable Data Points
