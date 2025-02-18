@@ -24,7 +24,7 @@ Command 0x02 to read data
 | 0x09             | 0x46                 | 0x02               | 0x00       | 0x01       |
 
 
-## Notable Data Points (Payload)
+### Notable Data Points (Payload)
 
 Source? | Sequence | DataPointID | DataType     | Data Length  | Parameter        | Validity      | Notes                 |
 | ----- | -------- | ----------- | ------------ | -----------  | ---------------- | ------------- | --------------------- |
